@@ -1,0 +1,766 @@
+token5
+Found a 1 line (7 tokens) duplication in the following files: 
+Starting at line 169 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 107 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 70 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 71 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 224 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+        List<Class<? extends Unit>> found = new ArrayList<>();
+=====================================================================
+Found a 1 line (7 tokens) duplication in the following files: 
+Starting at line 229 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 237 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+
+        private final CollisionHandler<C2, C1> handler;
+=====================================================================
+Found a 1 line (7 tokens) duplication in the following files: 
+Starting at line 246 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 28 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionMap.java
+
+        public void handleCollision(C1 collider, C2 collidee) {
+=====================================================================
+Found a 7 line (7 tokens) duplication in the following files: 
+Starting at line 37 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 43 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+    private final Object moveLock = new Object();
+
+    /**
+     * The lock that ensures starting and stopping can't interfere with each
+     * other.
+     */
+    private final Object startStopLock = new Object();
+=====================================================================
+Found a 2 line (7 tokens) duplication in the following files: 
+Starting at line 118 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 128 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+    public void addObserver(LevelObserver observer) {
+        observers.add(observer);
+=====================================================================
+Found a 3 line (7 tokens) duplication in the following files: 
+Starting at line 177 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 203 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 218 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+        if (!isInProgress()) {
+            return;
+        }
+=====================================================================
+Found a 9 line (7 tokens) duplication in the following files: 
+Starting at line 193 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 208 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+            updateObservers();
+        }
+    }
+
+    /**
+     * Starts or resumes this level, allowing movement and (re)starting the
+     * NPCs.
+     */
+    public void start() {
+=====================================================================
+Found a 2 line (7 tokens) duplication in the following files: 
+Starting at line 67 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/LevelFactory.java
+Starting at line 23 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerFactory.java
+
+                        PointCalculator pointCalculator) {
+        this.sprites = spriteStore;
+=====================================================================
+Found a 1 line (7 tokens) duplication in the following files: 
+Starting at line 142 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/LevelFactory.java
+Starting at line 50 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+
+        RandomGhost(Map<Direction, Sprite> ghostSprite) {
+=====================================================================
+Found a 1 line (7 tokens) duplication in the following files: 
+Starting at line 64 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 79 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+    public Level parseMap(char[][] map) {
+=====================================================================
+Found a 1 line (7 tokens) duplication in the following files: 
+Starting at line 83 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 174 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+                char c = map[x][y];
+=====================================================================
+Found a 1 line (7 tokens) duplication in the following files: 
+Starting at line 113 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 116 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 120 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 125 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 129 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 174 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+                grid[x][y] = boardCreator.createGround();
+=====================================================================
+Found a 2 line (7 tokens) duplication in the following files: 
+Starting at line 34 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+Starting at line 46 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+Starting at line 55 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+Starting at line 61 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+
+    public void collide(Unit mover, Unit collidedOn) {
+        if (mover instanceof Player) {
+=====================================================================
+Found a 1 line (6 tokens) duplication in the following files: 
+Starting at line 21 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 22 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 90 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 91 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 96 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 118 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 123 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 124 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 147 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 148 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 148 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 149 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 150 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 167 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 168 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 169 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 177 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 181 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+
+    private final Map<Class<? extends Unit>,
+=====================================================================
+Found a 1 line (6 tokens) duplication in the following files: 
+Starting at line 28 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 93 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 101 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+        this.handlers = new HashMap<>();
+=====================================================================
+Found a 20 line (6 tokens) duplication in the following files: 
+Starting at line 28 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 109 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+        this.handlers = new HashMap<>();
+    }
+
+    /**
+     * Adds a two-way collision interaction to this collection, i.e. the
+     * collision handler will be used for both C1 versus C2 and C2 versus C1.
+     *
+     * @param <C1>
+     *            The collider type.
+     * @param <C2>
+     *            The collidee (unit that was moved into) type.
+     *
+     * @param collider
+     *            The collider type.
+     * @param collidee
+     *            The collidee type.
+     * @param handler
+     *            The handler that handles the collision.
+     */
+    public <C1 extends Unit, C2 extends Unit> void onCollision(
+=====================================================================
+Found a 1 line (6 tokens) duplication in the following files: 
+Starting at line 48 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 73 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 129 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 129 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 224 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+
+        Class<C1> collider, Class<C2> collidee, CollisionHandler<C1, C2> handler) {
+=====================================================================
+Found a 17 line (6 tokens) duplication in the following files: 
+Starting at line 98 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 156 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+
+    }
+
+    /**
+     * Handles the collision between two colliding parties, if a suitable
+     * collision handler is listed.
+     *
+     * @param <C1>
+     *            The collider type.
+     * @param <C2>
+     *            The collidee (unit that was moved into) type.
+     *
+     * @param collider
+     *            The collider.
+     * @param collidee
+     *            The collidee.
+     */
+    @SuppressWarnings("unchecked")
+=====================================================================
+Found a 3 line (6 tokens) duplication in the following files: 
+Starting at line 119 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 125 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 130 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+
+        if (colliderKey == null) {
+            return;
+        }
+=====================================================================
+Found a 1 line (6 tokens) duplication in the following files: 
+Starting at line 176 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 180 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+
+            if (superClass != null && Unit.class.isAssignableFrom(superClass)) {
+=====================================================================
+Found a 2 line (6 tokens) duplication in the following files: 
+Starting at line 179 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 304 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+            for (Class<?> classInterface : current.getInterfaces()) {
+                if (Unit.class.isAssignableFrom(classInterface)) {
+=====================================================================
+Found a 3 line (6 tokens) duplication in the following files: 
+Starting at line 18 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/DefaultPlayerInteractionMap.java
+Starting at line 18 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+
+public class DefaultPlayerInteractionMap implements CollisionMap {
+
+    private PointCalculator pointCalculator;
+=====================================================================
+Found a 2 line (6 tokens) duplication in the following files: 
+Starting at line 31 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/DefaultPlayerInteractionMap.java
+Starting at line 67 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/LevelFactory.java
+Starting at line 29 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+
+    public DefaultPlayerInteractionMap(PointCalculator pointCalculator) {
+        this.pointCalculator = pointCalculator;
+=====================================================================
+Found a 2 line (6 tokens) duplication in the following files: 
+Starting at line 32 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/DefaultPlayerInteractionMap.java
+Starting at line 71 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/LevelFactory.java
+Starting at line 30 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+
+        this.pointCalculator = pointCalculator;
+    }
+=====================================================================
+Found a 2 line (6 tokens) duplication in the following files: 
+Starting at line 36 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/DefaultPlayerInteractionMap.java
+Starting at line 189 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+    public void collide(Unit mover, Unit movedInto) {
+        collisions.collide(mover, movedInto);
+=====================================================================
+Found a 2 line (6 tokens) duplication in the following files: 
+Starting at line 49 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/DefaultPlayerInteractionMap.java
+Starting at line 56 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/DefaultPlayerInteractionMap.java
+
+        collisionMap.onCollision(Player.class, Ghost.class,
+            (player, ghost) -> {
+=====================================================================
+Found a 1 line (6 tokens) duplication in the following files: 
+Starting at line 93 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 85 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/LevelFactory.java
+Starting at line 80 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 109 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 146 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+    public Level(Board board, List<Ghost> ghosts, List<Square> startPositions,
+=====================================================================
+Found a 10 line (6 tokens) duplication in the following files: 
+Starting at line 119 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 129 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+        observers.add(observer);
+    }
+
+    /**
+     * Removes an observer if it was listed.
+     *
+     * @param observer
+     *            The observer to be removed.
+     */
+    public void removeObserver(LevelObserver observer) {
+=====================================================================
+Found a 3 line (6 tokens) duplication in the following files: 
+Starting at line 231 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 351 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+            ScheduledExecutorService service = Executors.newSingleThreadScheduledExecutor();
+
+            service.schedule(new NpcMoveTask(service, npc),
+=====================================================================
+Found a 2 line (6 tokens) duplication in the following files: 
+Starting at line 287 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 115 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+
+            if (player.isAlive()) {
+                return true;
+=====================================================================
+Found a 1 line (6 tokens) duplication in the following files: 
+Starting at line 90 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/LevelFactory.java
+Starting at line 76 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+        return new Level(board, ghosts, startPositions, collisionMap);
+=====================================================================
+Found a 1 line (6 tokens) duplication in the following files: 
+Starting at line 142 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/LevelFactory.java
+Starting at line 25 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+Starting at line 50 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+
+        RandomGhost(Map<Direction, Sprite> ghostSprite) {
+=====================================================================
+Found a 1 line (6 tokens) duplication in the following files: 
+Starting at line 64 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 79 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 171 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+    public Level parseMap(char[][] map) {
+=====================================================================
+Found a 1 line (6 tokens) duplication in the following files: 
+Starting at line 68 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 80 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 109 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+        Square[][] grid = new Square[width][height];
+=====================================================================
+Found a 1 line (6 tokens) duplication in the following files: 
+Starting at line 68 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 171 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+        Square[][] grid = new Square[width][height];
+=====================================================================
+Found a 1 line (6 tokens) duplication in the following files: 
+Starting at line 83 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 113 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 116 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 120 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 125 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 129 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+                char c = map[x][y];
+=====================================================================
+Found a 1 line (6 tokens) duplication in the following files: 
+Starting at line 113 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 119 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 128 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 147 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+                grid[x][y] = boardCreator.createGround();
+=====================================================================
+Found a 2 line (6 tokens) duplication in the following files: 
+Starting at line 186 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 191 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 198 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 204 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 248 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+        if (text == null) {
+            throw new PacmanConfigurationException(
+=====================================================================
+Found a 2 line (6 tokens) duplication in the following files: 
+Starting at line 221 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 246 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+    public Level parseMap(InputStream source) throws IOException {
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(
+=====================================================================
+Found a 1 line (6 tokens) duplication in the following files: 
+Starting at line 55 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+Starting at line 77 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+
+        deathSprite.setAnimating(false);
+=====================================================================
+Found a 2 line (6 tokens) duplication in the following files: 
+Starting at line 36 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+Starting at line 39 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+Starting at line 42 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+
+            playerColliding((Player) mover, collidedOn);
+        }
+=====================================================================
+Found a 5 line (6 tokens) duplication in the following files: 
+Starting at line 42 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+Starting at line 51 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+
+            pelletColliding((Pellet) mover, collidedOn);
+        }
+    }
+
+    private void playerColliding(Player player, Unit collidedOn) {
+=====================================================================
+Found a 1 line (6 tokens) duplication in the following files: 
+Starting at line 57 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+Starting at line 63 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+
+            playerVersusGhost((Player) collidedOn, ghost);
+=====================================================================
+Found a 1 line (5 tokens) duplication in the following files: 
+Starting at line 48 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 72 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 90 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+
+        Class<C1> collider, Class<C2> collidee, CollisionHandler<C1, C2> handler) {
+=====================================================================
+Found a 1 line (5 tokens) duplication in the following files: 
+Starting at line 48 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 91 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+
+        Class<C1> collider, Class<C2> collidee, CollisionHandler<C1, C2> handler) {
+=====================================================================
+Found a 1 line (5 tokens) duplication in the following files: 
+Starting at line 49 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 74 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+
+        onCollision(collider, collidee, true, handler);
+=====================================================================
+Found a 15 line (5 tokens) duplication in the following files: 
+Starting at line 76 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 236 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 42 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+Starting at line 51 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+Starting at line 57 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+
+            addHandler(collidee, collider, new InverseCollisionHandler<>(handler));
+        }
+    }
+
+    /**
+     * Adds the collision interaction..
+     *
+     * @param collider
+     *            The collider type.
+     * @param collidee
+     *            The collidee type.
+     * @param handler
+     *            The handler that handles the collision.
+     */
+    private void addHandler(Class<? extends Unit> collider,
+=====================================================================
+Found a 2 line (5 tokens) duplication in the following files: 
+Starting at line 91 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 217 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 265 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+                            Class<? extends Unit> collidee, CollisionHandler<?, ?> handler) {
+        if (!handlers.containsKey(collider)) {
+=====================================================================
+Found a 2 line (5 tokens) duplication in the following files: 
+Starting at line 117 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 173 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+
+                                                           C2 collidee) {
+        Class<? extends Unit> colliderKey = getMostSpecificClass(handlers, collider.getClass());
+=====================================================================
+Found a 1 line (5 tokens) duplication in the following files: 
+Starting at line 150 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 179 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+
+        for (Class<? extends Unit> pointer : collideeInheritance) {
+=====================================================================
+Found a 2 line (5 tokens) duplication in the following files: 
+Starting at line 179 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 304 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 247 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+            for (Class<?> classInterface : current.getInterfaces()) {
+                if (Unit.class.isAssignableFrom(classInterface)) {
+=====================================================================
+Found a 8 line (5 tokens) duplication in the following files: 
+Starting at line 239 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 33 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/DefaultPlayerInteractionMap.java
+Starting at line 343 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 31 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+
+        }
+
+        /**
+         * Handles this collision by flipping the collider and collidee, making
+         * it compatible with the initial collision.
+         */
+        @Override
+        public void handleCollision(C1 collider, C2 collidee) {
+=====================================================================
+Found a 1 line (5 tokens) duplication in the following files: 
+Starting at line 50 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/DefaultPlayerInteractionMap.java
+Starting at line 51 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/DefaultPlayerInteractionMap.java
+Starting at line 77 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+
+            (player, ghost) -> {
+=====================================================================
+Found a 2 line (5 tokens) duplication in the following files: 
+Starting at line 50 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/DefaultPlayerInteractionMap.java
+Starting at line 57 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/DefaultPlayerInteractionMap.java
+
+            (player, ghost) -> {
+                pointCalculator.collidedWithAGhost(player, ghost);
+=====================================================================
+Found a 1 line (5 tokens) duplication in the following files: 
+Starting at line 57 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/DefaultPlayerInteractionMap.java
+Starting at line 58 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/DefaultPlayerInteractionMap.java
+Starting at line 91 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+
+            (player, pellet) -> {
+=====================================================================
+Found a 1 line (5 tokens) duplication in the following files: 
+Starting at line 48 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 245 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+    private final Map<Ghost, ScheduledExecutorService> npcs;
+=====================================================================
+Found a 1 line (5 tokens) duplication in the following files: 
+Starting at line 93 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 85 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/LevelFactory.java
+Starting at line 70 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 80 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 109 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 146 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+    public Level(Board board, List<Ghost> ghosts, List<Square> startPositions,
+=====================================================================
+Found a 1 line (5 tokens) duplication in the following files: 
+Starting at line 93 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 85 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/LevelFactory.java
+Starting at line 71 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 80 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 110 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+    public Level(Board board, List<Ghost> ghosts, List<Square> startPositions,
+=====================================================================
+Found a 3 line (5 tokens) duplication in the following files: 
+Starting at line 144 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 177 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 203 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 218 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+        if (players.contains(player)) {
+            return;
+        }
+=====================================================================
+Found a 2 line (5 tokens) duplication in the following files: 
+Starting at line 177 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 203 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 218 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 287 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 115 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+
+        if (!isInProgress()) {
+            return;
+=====================================================================
+Found a 2 line (5 tokens) duplication in the following files: 
+Starting at line 186 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 223 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+            if (destination.isAccessibleTo(unit)) {
+                List<Unit> occupants = destination.getOccupants();
+=====================================================================
+Found a 9 line (5 tokens) duplication in the following files: 
+Starting at line 193 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 208 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 248 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+            updateObservers();
+        }
+    }
+
+    /**
+     * Starts or resumes this level, allowing movement and (re)starting the
+     * NPCs.
+     */
+    public void start() {
+=====================================================================
+Found a 9 line (5 tokens) duplication in the following files: 
+Starting at line 193 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 208 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 63 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+
+            updateObservers();
+        }
+    }
+
+    /**
+     * Starts or resumes this level, allowing movement and (re)starting the
+     * NPCs.
+     */
+    public void start() {
+=====================================================================
+Found a 2 line (5 tokens) duplication in the following files: 
+Starting at line 229 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 244 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 285 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+    private void startNPCs() {
+        for (final Ghost npc : npcs.keySet()) {
+=====================================================================
+Found a 2 line (5 tokens) duplication in the following files: 
+Starting at line 230 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 245 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+        for (final Ghost npc : npcs.keySet()) {
+            ScheduledExecutorService service = Executors.newSingleThreadScheduledExecutor();
+=====================================================================
+Found a 1 line (5 tokens) duplication in the following files: 
+Starting at line 234 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 351 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+                npc.getInterval() / 2, TimeUnit.MILLISECONDS);
+=====================================================================
+Found a 1 line (5 tokens) duplication in the following files: 
+Starting at line 234 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 352 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+                npc.getInterval() / 2, TimeUnit.MILLISECONDS);
+=====================================================================
+Found a 2 line (5 tokens) duplication in the following files: 
+Starting at line 265 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 114 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+
+    private void updateObservers() {
+        if (!isAnyPlayerAlive()) {
+=====================================================================
+Found a 3 line (5 tokens) duplication in the following files: 
+Starting at line 268 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 373 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+
+                observer.levelLost();
+            }
+        }
+=====================================================================
+Found a 4 line (5 tokens) duplication in the following files: 
+Starting at line 273 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 148 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/LevelFactory.java
+
+                observer.levelWon();
+            }
+        }
+    }
+=====================================================================
+Found a 13 line (5 tokens) duplication in the following files: 
+Starting at line 273 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 206 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+                observer.levelWon();
+            }
+        }
+    }
+
+    /**
+     * Returns <code>true</code> iff at least one of the players in this level
+     * is alive.
+     *
+     * @return <code>true</code> if at least one of the registered players is
+     *         alive.
+     */
+    public boolean isAnyPlayerAlive() {
+=====================================================================
+Found a 2 line (5 tokens) duplication in the following files: 
+Starting at line 302 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 303 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 81 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 172 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+        for (int x = 0; x < board.getWidth(); x++) {
+            for (int y = 0; y < board.getHeight(); y++) {
+=====================================================================
+Found a 2 line (5 tokens) duplication in the following files: 
+Starting at line 302 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Level.java
+Starting at line 80 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 81 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 172 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+        for (int x = 0; x < board.getWidth(); x++) {
+            for (int y = 0; y < board.getHeight(); y++) {
+=====================================================================
+Found a 1 line (5 tokens) duplication in the following files: 
+Starting at line 90 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/LevelFactory.java
+Starting at line 84 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+        return new Level(board, ghosts, startPositions, collisionMap);
+=====================================================================
+Found a 2 line (5 tokens) duplication in the following files: 
+Starting at line 120 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/LevelFactory.java
+Starting at line 32 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerFactory.java
+
+    public Pellet createPellet() {
+        return new Pellet(PELLET_VALUE, sprites.getPelletSprite());
+=====================================================================
+Found a 20 line (5 tokens) duplication in the following files: 
+Starting at line 45 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 151 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 209 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+    }
+
+    /**
+     * Parses the text representation of the board into an actual level.
+     *
+     * <ul>
+     * <li>Supported characters:
+     * <li>' ' (space) an empty square.
+     * <li>'#' (bracket) a wall.
+     * <li>'.' (period) a square with a pellet.
+     * <li>'P' (capital P) a starting square for players.
+     * <li>'G' (capital G) a square with a ghost.
+     * </ul>
+     *
+     * @param map
+     *            The text representation of the board, with map[x][y]
+     *            representing the square at position x,y.
+     * @return The level as represented by this text.
+     */
+    public Level parseMap(char[][] map) {
+=====================================================================
+Found a 1 line (5 tokens) duplication in the following files: 
+Starting at line 73 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 84 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+        makeGrid(map, width, height, grid, ghosts, startPositions);
+=====================================================================
+Found a 1 line (5 tokens) duplication in the following files: 
+Starting at line 73 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 76 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+        makeGrid(map, width, height, grid, ghosts, startPositions);
+=====================================================================
+Found a 1 line (5 tokens) duplication in the following files: 
+Starting at line 146 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 76 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+
+    protected Square makeGhostSquare(List<Ghost> ghosts, Ghost ghost) {
+=====================================================================
+Found a 1 line (5 tokens) duplication in the following files: 
+Starting at line 169 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 174 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 196 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+        int width = text.get(0).length();
+=====================================================================
+Found a 2 line (5 tokens) duplication in the following files: 
+Starting at line 185 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 203 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+    private void checkMapFormat(List<String> text) {
+        if (text == null) {
+=====================================================================
+Found a 3 line (5 tokens) duplication in the following files: 
+Starting at line 226 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 116 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+
+                lines.add(reader.readLine());
+            }
+            return parseMap(lines);
+=====================================================================
+Found a 3 line (5 tokens) duplication in the following files: 
+Starting at line 226 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 249 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+                lines.add(reader.readLine());
+            }
+            return parseMap(lines);
+=====================================================================
+Found a 2 line (5 tokens) duplication in the following files: 
+Starting at line 75 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+Starting at line 114 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+
+    public void setAlive(boolean isAlive) {
+        if (isAlive) {
+=====================================================================
+Found a 2 line (5 tokens) duplication in the following files: 
+Starting at line 76 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+Starting at line 80 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+
+        if (isAlive) {
+            deathSprite.setAnimating(false);

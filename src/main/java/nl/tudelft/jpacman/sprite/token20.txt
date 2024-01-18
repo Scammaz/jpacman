@@ -1,0 +1,61 @@
+Found a 21 line (27 tokens) duplication in the following files: 
+Starting at line 28 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 49 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+
+        this.handlers = new HashMap<>();
+    }
+
+    /**
+     * Adds a two-way collision interaction to this collection, i.e. the
+     * collision handler will be used for both C1 versus C2 and C2 versus C1.
+     *
+     * @param <C1>
+     *            The collider type.
+     * @param <C2>
+     *            The collidee (unit that was moved into) type.
+     *
+     * @param collider
+     *            The collider type.
+     * @param collidee
+     *            The collidee type.
+     * @param handler
+     *            The handler that handles the collision.
+     */
+    public <C1 extends Unit, C2 extends Unit> void onCollision(
+        Class<C1> collider, Class<C2> collidee, CollisionHandler<C1, C2> handler) {
+=====================================================================
+Found a 2 line (26 tokens) duplication in the following files: 
+Starting at line 81 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+Starting at line 172 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/MapParser.java
+
+        for (int x = 0; x < width; x++) {
+            for (int y = 0; y < height; y++) {
+=====================================================================
+Found a 3 line (23 tokens) duplication in the following files: 
+Starting at line 94 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+Starting at line 121 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/CollisionInteractionMap.java
+
+        }
+
+        Map<Class<? extends Unit>, CollisionHandler<?, ?>> map = handlers.get(collider);
+=====================================================================
+Found a 5 line (22 tokens) duplication in the following files: 
+Starting at line 50 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/DefaultPlayerInteractionMap.java
+Starting at line 76 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+
+            (player, ghost) -> {
+                pointCalculator.collidedWithAGhost(player, ghost);
+                player.setAlive(false);
+                player.setKiller(ghost);
+            });
+=====================================================================
+Found a 6 line (21 tokens) duplication in the following files: 
+Starting at line 31 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/DefaultPlayerInteractionMap.java
+Starting at line 29 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/PlayerCollisions.java
+
+    public DefaultPlayerInteractionMap(PointCalculator pointCalculator) {
+        this.pointCalculator = pointCalculator;
+    }
+
+    @Override
+    public void collide(Unit mover, Unit movedInto) {

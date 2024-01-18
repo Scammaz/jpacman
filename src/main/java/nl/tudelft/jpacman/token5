@@ -1,0 +1,25 @@
+Found a 1 line (6 tokens) duplication in the following files: 
+Starting at line 25 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+Starting at line 50 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+
+    private final Map<Direction, Sprite> sprites;
+=====================================================================
+Found a 1 line (6 tokens) duplication in the following files: 
+Starting at line 55 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+Starting at line 77 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+
+        deathSprite.setAnimating(false);
+=====================================================================
+Found a 2 line (5 tokens) duplication in the following files: 
+Starting at line 75 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+Starting at line 114 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+
+    public void setAlive(boolean isAlive) {
+        if (isAlive) {
+=====================================================================
+Found a 2 line (5 tokens) duplication in the following files: 
+Starting at line 76 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+Starting at line 80 of /Users/laurentmarleau-gallant/Documents/GitHub/jpacman/src/main/java/nl/tudelft/jpacman/./level/Player.java
+
+        if (isAlive) {
+            deathSprite.setAnimating(false);
